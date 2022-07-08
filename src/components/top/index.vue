@@ -1,9 +1,8 @@
 <template>
   <view class="content">
-    <image class="logo" src="../../static/logo.png"></image>
-    <view>
-      <text class="title">{{ title }}</text>
-    </view>
+    <text class="title">
+      {{ title }}
+    </text>
   </view>
 </template>
 
@@ -22,21 +21,9 @@ export default Vue.extend({
 </script>
 
 <style>
-.content {
+.title {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
-.logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin: 200rpx auto 50rpx auto;
-}
-
-.text-area {
-  display: flex;
   justify-content: center;
 }
 
